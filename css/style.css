@@ -1,0 +1,93 @@
+/*colores*/
+:root{
+    --black: #000000;/*color de los botones*/
+    --second:#f7f7f7;
+    --white:#FFFFFF;
+    --grey:#999999;/*color de fondo del body*/
+  }
+  
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;/*Tipografia */
+    font-weight:300;/**/
+    background-color:var(--second);/**/
+    box-sizing: border-box;
+    display: flex;  /* Establecer la visualización en flexbox para alinear los elementos en fila */
+    overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal si es necesario */
+    overflow-y: auto; /* Muestra la barra de desplazamiento vertical si es necesario */
+  }
+  
+  
+  
+  
+  /*-------------------------------------MENU--------------------------------------*/
+  .bg-primary{
+    background-color: var(--white)!important;/*asignasión del color para el fondo del menu*/
+  }
+  #sidebar-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 16rem; /* Ancho del menú, ajusta según tus necesidades */
+    min-height:100vh;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  #sidebar-container .logo{
+    padding: .875rem 1.25rem;
+  }
+  
+  /*Asignación del tamaño y margen del logo*/
+  #sidebar-container .logo img{
+    width: 85px;
+    margin-left: 4rem;
+  }
+  #sidebar-container .menu{
+    width: 16rem;
+  }
+  
+  #sidebar-container .menu a {
+    text-decoration: none;
+    font-size: 15px;
+    color: var(--black);
+    display: block;
+      padding: 10px;
+  }
+  
+  #sidebar-container .menu i {
+    margin-right: 15px; /* Ajusta el espacio según tu preferencia */
+  }
+  
+  #sidebar-container .menu p {
+    color: var(--grey);
+    margin-bottom: 0.1rem;/*Cambio y separación de la palabra Manú*/
+  }
+  
+  /*transicion de hipervinculos*/
+  .menu a.active {
+    background-color: var(--second); /* Cambia el color según tus preferencias */
+  }
+  #sidebar-container .menu a:hover {
+    background-color: var(--black); /* Cambia el color según tus preferencias */
+    color: var(--white); /* Cambia el color del texto cuando el fondo está oscurecido */
+  }
+  
+  
+  .menu a.active:hover {
+    background-color: var(--second) !important;
+    color: var(--black) !important;
+  }
+  
+  #sidebar-container .menu a:hover:not(.active) {
+    background-color: var(--black);
+    color: var(--white);
+  }
+  
+  /*------------MENU DESPLEGABLE-------------*/
+  .proyectos-text {
+    cursor: pointer;
+  }
+  #proyectos-options {
+    display: none;
+  }
