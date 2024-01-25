@@ -46,7 +46,7 @@
               </div>
             </div>
             <!-- formulario -->
-            <form id="formulario_cliente" action="dashboard.php" class="formulario" method="POST">
+            <form id="formulario_cliente" action="index.php" class="formulario" method="POST">
               <div class="input">
                 <label for="correo">CORREO ELECTRÓNICO</label>
                 <span>
