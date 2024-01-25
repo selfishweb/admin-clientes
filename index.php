@@ -37,7 +37,7 @@
           <div class="col-md-6 login-sec">
             <div>
               <img class="img-logo" src="https://intranet.selfish.com.mx/assets/Selfish-logo.svg" alt="Card image cap" ></img>
-              <h4>CLIENTES</h4>
+              <h4>ADMIN</h4>
             </div>
             <div class="bienvenido">
               <h3>Bienvenido</h3>
@@ -57,7 +57,7 @@
                 <label for="contrasena">CONTRASEÑA</label>
                   <span>
                     <input id="password" name="password" type="password" placeholder="Contraseña" required autocomplete="off" value="" />
-                      <i><img id="eyeicon" src="https://clientes.selfish.com.mx/img/cerrar.png" width="32px"></i>
+                      <i><img id="eyeicon" src="https://.selfish.com.mx/img/cerrar.png" width="32px"></i>
                   </span>
           </div>
           <input type="submit" class="btn" value="INICIAR SESIÓN" style="margin: 0px auto" />
@@ -83,19 +83,19 @@
     eyeicon.onclick = function() {
       if (password.type == "password") {
         password.type = "text";
-        eyeicon.src = "https://clientes.selfish.com.mx/img/ver.png";
+        eyeicon.src = "https://admin-clientes.selfish.com.mx/img/ver.png";
       } else {
         password.type = "password";
-        eyeicon.src = "https://clientes.selfish.com.mx/img/cerrar.png";
+        eyeicon.src = "https://admin-clientes.selfish.com.mx/img/cerrar.png";
       }
     }
   </script>
   
   <!-- /Funcion Inicio de Sesion -->
   <script>
-    history.pushState(null, null, 'https://clientes.selfish.com.mx');
+    history.pushState(null, null, 'https://admin-clientes.selfish.com.mx');
     window.addEventListener('popstate', function () {
-        history.pushState(null, null, 'https://clientes.selfish.com.mx');
+        history.pushState(null, null, 'https://admin-clientes.selfish.com.mx');
     });
 </script>
   </body>
