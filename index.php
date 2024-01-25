@@ -57,7 +57,7 @@
                 <label for="contrasena">CONTRASEÑA</label>
                   <span>
                     <input id="password" name="password" type="password" placeholder="Contraseña" required autocomplete="off" value="" />
-                      <i><img id="eyeicon" src="https://.selfish.com.mx/img/cerrar.png" width="32px"></i>
+                      <i><img id="eyeicon" src="https://admin-clientes.selfish.com.mx/img/cerrar.png" width="32px"></i>
                   </span>
           </div>
           <input type="submit" class="btn" value="INICIAR SESIÓN" style="margin: 0px auto" />
