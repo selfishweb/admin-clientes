@@ -18,9 +18,9 @@
             <div class="card1">
                     <img class="avatar" src="img/images.png" alt="Avatar del Usuario">
                     <div class="user-info">
-                    <h2>Miguel Tatto</h2>
-                    <p>miguel.tatto@protarget.com.mx</p>
-                    <p>Horario de atención: LUN a VIE de 9:00 AM - 6:00 PM</p>
+                    <h2>Juan Alejandro Gutiérres Santamaría</h2>
+                    <p>alejandro@selfish.com.mx</p>
+                    <p>Horario de atención: LUN a VIE de 10:00 AM - 6:00 PM</p>
                     <!-- Agrega más información según tus necesidades -->
             </div>
     </div>
@@ -39,11 +39,11 @@
                     <tbody>
                         <tr>
                             <td class="datos">Email</td>
-                            <td>miguel.tatto@protarget.com.mx</td>
+                            <td>alejandro@selfish.com.mx</td>
                         </tr>
                         <tr>
                             <td class="datos">Teléfono</td>
-                            <td>+52 55 4343 0686</td>
+                            <td>+52 123 4567 89</td>
                         </tr>
                         <tr>
                             <td class="datos">Género</td>
@@ -56,10 +56,6 @@
                         <tr>
                             <td class="datos">Puesto</td>
                             <td>CEO</td>
-                        </tr>
-                        <tr>
-                            <td class="responsable">Responsable del Proyecto</td>
-                            <td>Juan Alejandro Gutiérrez Santamaría</td>
                         </tr>
                     </tbody>
                 </table>
