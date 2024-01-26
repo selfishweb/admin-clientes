@@ -35,7 +35,7 @@
                     <td>2024-01-21</td>
                     <td>Inactivo</td>
                     <td>10,000.00</td>
-                    <td><button id="showPopup"><i class="bi bi-eye"></i></button></td>
+                    <td><button class="showPopupBtn" data-bs-target="#popup" data-toggle="modal"><i class="bi bi-eye"></i></button></td>
                 </tr>
                         
                 <tr>
@@ -43,21 +43,21 @@
                     <td>2024-01-21</td>
                     <td>Inactivo</td>
                     <td>10,000.00</td>
-                    <td><button id="showPopup"><i class="bi bi-eye"></i></button></td>
+                    <td><button class="showPopupBtn" data-bs-target="#popup" data-toggle="modal"><i class="bi bi-eye"></i></button></td>
                 </tr>
                 <tr>
                     <td>Pablo Saul Solorzano</td>
                     <td>2024-01-21</td>
                     <td>Inactivo</td>
                     <td>10,000.00</td>
-                    <td><button id="showPopup"><i class="bi bi-eye"></i></button></td>
+                    <td><button class="showPopupBtn" data-bs-target="#popup" data-toggle="modal"><i class="bi bi-eye"></i></button></td>
                 </tr>
                 <tr>
                     <td>Karina del Rocio Reyes</td>
                     <td>2024-01-21</td>
                     <td>Inactivo</td>
                     <td>10,000.00</td>
-                    <td><button id="showPopup"><i class="bi bi-eye"></i></button></td>
+                    <td><button class="showPopupBtn" data-bs-target="#popup" data-toggle="modal"><i class="bi bi-eye"></i></button></td>
                 </tr>
                 
                     </tbody>
