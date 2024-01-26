@@ -32,31 +32,31 @@
             <tbody>
                 <tr>
                     <td>Luis Gabriel de sousa</td>
-                    <td>2024-01-21</td>
+                    <td>La chica de papel</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in tellus eu neque consectetur rhoncus nec sed libero.</td>
                     <td>Inactivo</td>
-                    <td>10,000.00</td>
                     <td><button class="showPopupBtn" data-bs-target="#popup" data-toggle="modal"><i class="bi bi-eye"></i></button></td>
                 </tr>
                         
                 <tr>
                     <td>Ricardo Javier Santos Juarez</td>
-                    <td>2024-01-21</td>
+                    <td>Núcleo de diagnóstico</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in tellus eu neque consectetur rhoncus nec sed libero.</td>
                     <td>Inactivo</td>
-                    <td>10,000.00</td>
                     <td><button class="showPopupBtn" data-bs-target="#popup" data-toggle="modal"><i class="bi bi-eye"></i></button></td>
                 </tr>
                 <tr>
                     <td>Pablo Saul Solorzano</td>
-                    <td>2024-01-21</td>
+                    <td>Arthemisa</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in tellus eu neque consectetur rhoncus nec sed libero.</td>
                     <td>Inactivo</td>
-                    <td>10,000.00</td>
                     <td><button class="showPopupBtn" data-bs-target="#popup" data-toggle="modal"><i class="bi bi-eye"></i></button></td>
                 </tr>
                 <tr>
                     <td>Karina del Rocio Reyes</td>
-                    <td>2024-01-21</td>
+                    <td>Taiyo Europe</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in tellus eu neque consectetur rhoncus nec sed libero.</td>
                     <td>Inactivo</td>
-                    <td>10,000.00</td>
                     <td><button class="showPopupBtn" data-bs-target="#popup" data-toggle="modal"><i class="bi bi-eye"></i></button></td>
                 </tr>
                 
