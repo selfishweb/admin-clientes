@@ -28,8 +28,7 @@ $nombreProyecto = "Protarget Web 2023";
             </div>
             <div class="menu">
                 <p class="font-weight-bold p-3">Menú</p>  
-                <a href="dashboard.php" id="notifications-link" class="d-block p-3"><i class="bi bi-people-fill"></i>Clientes</a>
-                <a href="notifications.php" id="notifications-link" class="d-block p-3"><i class="bi bi-bell-fill"></i>Notificaciones</a>
+                <a href="dashboard.php" id="notifications-link" class="d-block p-3"><i class="bi bi-envelope-arrow-down"></i>Solicitudes</a>
                 <a href="account.php" id="account-link" class="d-block p-3"><i class="bi bi-person-circle"></i>Mi cuenta</a>
                 <a href="index.php" id="logout-link" class="d-block p-3"><i class="bi bi-box-arrow-right"></i>Cerrar sesión</a>
             </div>
