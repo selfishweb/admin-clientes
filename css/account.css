@@ -9,7 +9,7 @@
 }
 
 .main-content h1 {
-  font-weight: 250;
+  font-weight: 200;
   font-weight: bold;
   font-size: 26px;
   background-image: linear-gradient(135deg, #A18D57 0%, #DECC8D 13%, #F8E7AA 25%, #DECC8D 38%, #A18D57 50%, #DECC8D 63%, #F8E7AA 75%, #DECC8D 88%, #A18D57 100%);
@@ -31,7 +31,7 @@
 .main-content {
   margin-top: 15px;
   width: 800px;
-  height: 350px;
+  height: 300px;
 }
 
 .avatar {
