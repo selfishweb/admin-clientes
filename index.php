@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Sistema de Clientes | Selfish</title>
+    <title>Sistema de Admin | Selfish</title>
     <link rel="shortcut icon" href="https://cdn.selfish.com.mx/wp-content/uploads/2016/09/ico-2.png" type="image/x-icon">
     <link rel="stylesheet" href="https://clientes.selfish.com.mx/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="https://clientes.selfish.com.mx/css/iniciosesion.css" />
