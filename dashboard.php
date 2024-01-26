@@ -81,7 +81,7 @@
                     <input type="text" id="comments" class="form-control mb-3">
                 </div>
                 <div class="modal-footer">
-                    <button class="boton-modal" type="button" data-bs-dismiss="modal">Cerrar</button>
+                    <button class="boton-modal" type="button" data-bs-dismiss="modal">Cancelar</button>
                     <button class="boton-modal" type="button" id="submitBtn">Enviar</button>
                 </div>
             </div>
