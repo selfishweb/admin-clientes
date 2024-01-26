@@ -125,6 +125,11 @@
     padding: 10px 16px;
     background-color: var(--black);
   }
+  .showPopupBtn{
+    border: none;
+  background-color: var(--white);
+  font-size: 25px;
+  }
 
   /*---------------------------------MODAL--------------------------------*/
   .popup {
