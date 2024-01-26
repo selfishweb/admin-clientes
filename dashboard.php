@@ -71,18 +71,18 @@
                     <h5 class="modal-title" id="popupLabel">Detalles del Proyecto</h5>
                 </div>
                 <div class="modal-body">
-                    <label for="comments" class="form-label">Comentarios:</label>
-                    <input type="text" id="comments" class="form-control mb-3">
-
                     <label for="price" class="form-label">Precio:</label>
                     <input type="text" id="price" class="form-control mb-3">
 
                     <label for="developmentTime" class="form-label">Tiempo de Desarrollo:</label>
                     <input type="text" id="developmentTime" class="form-control mb-3">
+
+                    <label for="comments" class="form-label">Comentarios:</label>
+                    <input type="text" id="comments" class="form-control mb-3">
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    <button type="button" class="btn btn-primary" id="submitBtn">Enviar</button>
+                    <button class="boton-modal" type="button" data-bs-dismiss="modal">Cerrar</button>
+                    <button class="boton-modal" type="button" id="submitBtn">Enviar</button>
                 </div>
             </div>
         </div>
