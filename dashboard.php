@@ -25,35 +25,69 @@
                         <th scope="col">Cliente</th>
                         <th scope="col">Proyecto</th>
                         <th scope="col">Solicitud</th>
+                        <th scope="col">Estatus</th>
+                        <th scope="col">Detalles</th>
                     </tr>
                 </thead>
             <tbody>
                 <tr>
-                    <td>Solicitud</td>
+                    <td>Luis Gabriel de sousa</td>
                     <td>2024-01-21</td>
                     <td>Inactivo</td>
+                    <td>10,000.00</td>
+                    <td><button id="showPopup"><i class="bi bi-eye"></i></button></td>
                 </tr>
                         
                 <tr>
-                    <td>Solicitud</td>
+                    <td>Ricardo Javier Santos Juarez</td>
                     <td>2024-01-21</td>
                     <td>Inactivo</td>
+                    <td>10,000.00</td>
+                    <td><button id="showPopup"><i class="bi bi-eye"></i></button></td>
                 </tr>
                 <tr>
-                    <td>Solicitud</td>
+                    <td>Pablo Saul Solorzano</td>
                     <td>2024-01-21</td>
                     <td>Inactivo</td>
+                    <td>10,000.00</td>
+                    <td><button id="showPopup"><i class="bi bi-eye"></i></button></td>
                 </tr>
                 <tr>
-                    <td>Solicitud</td>
+                    <td>Karina del Rocio Reyes</td>
                     <td>2024-01-21</td>
                     <td>Inactivo</td>
+                    <td>10,000.00</td>
+                    <td><button id="showPopup"><i class="bi bi-eye"></i></button></td>
                 </tr>
                 
                     </tbody>
                 </table>
         </div>
     </div>
+    <div class="modal fade" id="popup" tabindex="-1" aria-labelledby="popupLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="popupLabel">Detalles del Proyecto</h5>
+                </div>
+                <div class="modal-body">
+                    <label for="comments" class="form-label">Comentarios:</label>
+                    <input type="text" id="comments" class="form-control mb-3">
 
+                    <label for="price" class="form-label">Precio:</label>
+                    <input type="text" id="price" class="form-control mb-3">
+
+                    <label for="developmentTime" class="form-label">Tiempo de Desarrollo:</label>
+                    <input type="text" id="developmentTime" class="form-control mb-3">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" id="submitBtn">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/dashboard.js"></script>
 </body>
 </html>
