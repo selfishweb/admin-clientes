@@ -29,14 +29,7 @@ $nombreProyecto = "Protarget Web 2023";
             <div class="menu">
                 <p class="font-weight-bold p-3">Menú</p>
                   
-                <!--Opcion proyecto con su submenu, en la parte de abajo se encuentra su script-->
-                    <a href="#" class="proyectos-text d-block p-3">
-                      <i class="bi bi-laptop"></i>Proyectos
-                      <i class="bi bi-caret-down-fill" style="margin-left:5.4rem;"></i>
-                    </a>
-                    <div id="proyectos-options" class="submenu">   
-                      <a href="dashboard.php" class="d-block p-3"><?php echo $nombreProyecto; ?></a>
-                    </div>
+                <a href="notifications.php" id="notifications-link" class="d-block p-3"><i class="bi bi-people-fill"></i>Clientes</a>
                 <a href="notifications.php" id="notifications-link" class="d-block p-3"><i class="bi bi-bell-fill"></i>Notificaciones</a>
                 <a href="account.php" id="account-link" class="d-block p-3"><i class="bi bi-person-circle"></i>Mi cuenta</a>
                 <a href="index.php" id="logout-link" class="d-block p-3"><i class="bi bi-box-arrow-right"></i>Cerrar sesión</a>

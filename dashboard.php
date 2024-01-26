@@ -12,5 +12,48 @@
 </head>
 <body>
     <?php include('menu.php'); ?> <!--Llamado del menu al archivo-->
-    </body>
+
+     <!-- Contenido principal -->
+    <div class="contenedor-principal">
+        <div class="bottom-container">
+            <div class="title">
+                    <h5>Clientes</h5>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Cliente</th>
+                        <th scope="col">Proyecto</th>
+                        <th scope="col">Solicitud</th>
+                    </tr>
+                </thead>
+            <tbody>
+                <tr>
+                    <td>Solicitud</td>
+                    <td>2024-01-21</td>
+                    <td>Inactivo</td>
+                </tr>
+                        
+                <tr>
+                    <td>Solicitud</td>
+                    <td>2024-01-21</td>
+                    <td>Inactivo</td>
+                </tr>
+                <tr>
+                    <td>Solicitud</td>
+                    <td>2024-01-21</td>
+                    <td>Inactivo</td>
+                </tr>
+                <tr>
+                    <td>Solicitud</td>
+                    <td>2024-01-21</td>
+                    <td>Inactivo</td>
+                </tr>
+                
+                    </tbody>
+                </table>
+        </div>
+    </div>
+
+</body>
 </html>
